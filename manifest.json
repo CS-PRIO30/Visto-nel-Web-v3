@@ -1,0 +1,27 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Visto nel Web v2",
+    "default_popup": "save_url.html",
+    "default_icon": {
+     "32" : "save32.png"
+    }
+  },
+  "description": "Visto nel Web v2",
+  "icons": {
+    "48": "save48.png",
+    "32": "save32.png"
+  },
+  "manifest_version": 2,
+  "name": "Visto nel Web v2",
+  "permissions": [
+    "tabs",
+    "downloads",
+    "activeTab"
+  ],
+  "page_action": {
+    "default_icon": "save32.png",
+    "default_title": "Visto nel Web v2"
+  },
+  "version": "1.3"
+}

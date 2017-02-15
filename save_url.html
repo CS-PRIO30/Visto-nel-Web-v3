@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tabs.css"/>
+  </head>
+
+<body onload="save_url_try.js">
+  <div style="margin-left:5%;margin-right:5%" id="BODY" >
+  <form>
+  <br>
+  <strong>TITOLO:</strong>
+  <br>
+  <textarea rows="3" type="text" value="" id="TITLE_TAB"  style="width:100%"></textarea>
+  <br>
+  <strong>URL:</strong>
+  <br>
+  <input style="width:100%" type="text" value="" id="URL_TAB" ></input>
+  <br>
+  <strong>DESCRIZIONE:</strong>
+  <br>
+  <textarea rows="3"  placeholder="Descrizione.." style="width:100%" id="COMMENT"></textarea>
+  
+  <br>
+  <strong>HASHTAG:</strong>
+  <br>
+  <select name="JU" id="HASHTAG" style="width:100%">
+<option></option>
+<option>NOT LISTED HERE</option>
+<option>artificial intelligence</option>
+<option>algoritmi, codice</option>
+<option>bufale</option>
+<option>bug</option>
+<option>censura</option>
+<option>copyright</option>
+<option>dati, raccolta</option>
+<option>documenti</option>
+<option>economia</option>
+<option>ditte</option>
+<option>free open source software</option>
+<option>frodi</option>
+<option>programmazione funzionale</option>
+<option>games</option>
+<option>gossip, pettegolezzi</option>
+<option>hackers at work</option>
+<option>hardware</option>
+<option>storia</option>
+<option>innovazioni, futuro</option>
+<option>Internet of things</option>
+<option>linguaggi di programmazione</option>
+<option>lisp(s)</option>
+<option>umorismo</option>
+<option>malware, virus</option>
+<option>manuali, how to</option>
+<option>matematica</option>
+<option>media</option>
+<option>dispositivi mobili</option>
+<option>novità</option>
+<option>sistemi operativi</option>
+<option>Panic!</option>
+<option>personale</option>
+<option>pirateria</option>
+<option>politica</option>
+<option>programming, codice, snippet</option>
+<option>protagonisti</option>
+<option>sicurezza, spionaggio, virus</option>
+<option>social media</option>
+<option>spam</option>
+<option>tip, suggerimenti</option>
+<option>tools, componenti software</option>
+<option>Web, Internet</option>
+<option>Python</option>
+<option>Robots</option>
+</select>
+
+<br>
+
+
+<input type="hidden" id="HIDDEN_HASHTAG" value="" placeholder="" style="width:100%"></input>
+
+
+<br><br>
+<strong>CATEGORY:</strong>
+<br>
+<select name="FL" id="CATEGORY" style="width:100%">
+	<option></option>
+	<option>NOT LISTED HERE</option>
+	<option>ARTICOLI</option>
+	<option>VIDEO</option>
+	<option>SOCIAL</option>
+	</select>
+<br>
+
+
+
+<input type="hidden" id="HIDDEN_CATEGORY" value="" placeholder="" style="width:100%"></input>
+
+
+
+<br><br>
+  <center>
+   <input type="button" value="SALVA" id="SAVE" style="width:100%"></input>
+   </center>
+  </center>
+  <br>
+  </form>
+  </div>
+  <script src="save_url_try.js"></script>
+</body>
+
+</html>
